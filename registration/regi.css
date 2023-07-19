@@ -1,0 +1,125 @@
+/* Form container styles */
+
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+/* Form title styles */
+/* .title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+} */
+
+/* Form message styles */
+.message {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Flex container styles */
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+/* Input group styles */
+.label {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #333;
+    pointer-events: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #0066cc;
+}
+
+.input:focus + .label,
+.input:valid + .label {
+    top: -10px;
+    font-size: 12px;
+    color: #0066cc;
+}
+
+/* Type label styles */
+.type {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Select styles */
+select.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.2s ease-in-out;
+    appearance: none;
+    background-color: white;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23333' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+}
+
+.select:required:invalid {
+    color: gray;
+}
+
+.select option {
+    color: black;
+}
+
+/* Submit button styles */
+.submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.submit:hover {
+    background-color: #0052a3;
+}
+
+/* Sign in link styles */
+.signin {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.signin a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.signin a:hover {
+    text-decoration: underline;
+}

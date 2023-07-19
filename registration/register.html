@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="regi.css">
+</head>
+<body>
+    
+    <form class="form">
+        <h1 class="title">Register</h1>
+        <p class="message">Signup now and get full access to our app.</p>
+        <div class="flex">
+            <label>
+                <input required="" placeholder="First name" type="text" class="input">
+                <span class="label"></span>
+            </label>
+
+            <label>
+                <input required="" placeholder="Last name" type="text" class="input">
+                <span class="label"></span>
+            </label>
+        </div>
+
+        <label>
+            <input required="" placeholder="Email" type="email" class="input">
+            <span class="label"></span>
+        </label>
+
+        <label>
+            <input required="" placeholder="password" type="password" class="input">
+            <span class="label"></span>
+        </label>
+        <label>
+            <input required="" placeholder="confirm password" type="password" class="input">
+            <span class="label"></span>
+        </label>
+
+        <label for="users" class="type">Choose account</label>
+        <select name="users" id="users" class="input">
+            <option value="user">User</option>
+            <option value="organizer">Organizer</option>
+            <option value="vendor">Vendor</option>
+        </select>
+
+        <button type="submit" class="submit">Submit</button>
+        <p class="signin">Already have an account? <a href="#">Sign in</a></p>
+    </form>
+    
+</body>
+</html>
